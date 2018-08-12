@@ -45,9 +45,9 @@ public class Swagger2 {
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
                 //页面标题
-                .title("pring Boot 测试使用 Swagger2 构建RESTful API")
+                .title("Spring Boot 使用 Swagger2 构建RESTful API")
                 //创建人
-                .contact(new Contact("ZNLCCY", "http://www.baidu.com", ""))
+                .contact(new Contact("ZNLCCY", "https://github.com/znlccy/cms", "756331868@qq.com"))
                 //版本号
                 .version("1.0")
                 //描述
