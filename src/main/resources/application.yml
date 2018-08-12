@@ -4,3 +4,18 @@ spring:
     url: jdbc:mysql://localhost:3306/db_cms
     username: root
     password: root
+
+  jpa:
+    database: mysql
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      naming:
+        implicit-strategy: org.hibernate.cfg.DefaultComponentSafeNamingStrategy
+      properties:
+        hibernate:
+          dialect: org.hibernate.dialect.MySQL5Dialect
+
+      thymeleaf:
+        cache: false
+        mode: LEGACYHTML5
